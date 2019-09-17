@@ -1,0 +1,11 @@
+---
+- name: Install gcc
+  hosts: futurama
+  tasks:
+
+          - name: Install gcc ALL machines
+            apt:
+                    name: gcc
+                    state: latest
+            become: yes
+

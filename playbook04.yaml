@@ -1,0 +1,10 @@
+---
+- name: Learning about the Fetch module
+  hosts: futurama
+
+  tasks:
+          - name: Employ the fetch module to gab a file
+            fetch:
+                    src: secondfloor.txt
+                    dest: /tmp/
+

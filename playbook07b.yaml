@@ -1,0 +1,29 @@
+---
+- name: get files from url
+  hosts: futurama:&ubuntuOS
+  gather_facts: yes
+  become: no
+
+  vars:
+          dir: "/tmp/images"
+          builddir: "/tmp/build"
+  tasks:
+          - name: create diretory
+            file:
+                    path: "{{ dir }}"
+                    state: directory
+          - name: get file from urla
+            file:
+                    path: "{{ builddir }}"
+                    state: directory
+
+          - name: create build dir
+
+            get_url:
+                    url: http://download.cirros-cloud.net/0.4.0/cirros-0.4.0-source.tar.gz
+                    dest: "{{ dir }}"
+          - name: untar/uncompress file
+            unarchive:
+                    src: "{{ dir }}/cirros-0.4.0-source.tar.gz"
+                    dest: "{{ builddir }}"
+                    remote_src: yes

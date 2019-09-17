@@ -1,0 +1,23 @@
+---
+- name: Just a little bit on loops
+  hosts: localhost
+  gather_facts: no
+
+  vars:
+          myList:
+                  - "A hypen is an entry in a list"
+                  - "This would be the 2nd item in the list"
+                  - "Number 3"
+  tasks:
+          - name: Demo my little loop
+            debug:
+                    msg: "The Debug modules allows us to deisplay to the screen: {{ item }}"
+            loop: "{{ myList }}"
+          - name: demo a 2nd tiny loop
+            debug:
+                    msg: "All modules can also have a LOCAL var information: {{ item }}"
+            loop: "{{ myOtherList }}"
+            vars:
+                    myOtherList:
+                            - Example of local info
+                            - Only available to this task

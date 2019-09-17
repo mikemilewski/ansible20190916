@@ -1,0 +1,8 @@
+---
+- name: Talk to OpenStack API's
+  hosts: futurama
+  gather_facts: no
+  become: no
+
+  tasks:
+

@@ -1,0 +1,13 @@
+---
+- name: Learning to download images to be used in a cloud
+  hosts: futurama:&ubuntuOS
+
+  tasks:
+          - name: make image dir
+            command: mkdir ~/images
+
+          - name: download a Cirros image to the targets
+            get_url:
+                    url: http://download.cirros-cloud.net/0.4.0/cirros-0.4.0-x86_64-disk.img
+                    dest: ~/images
+
