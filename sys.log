@@ -1,0 +1,129 @@
+ansible-bchd-systemd[1]: Started Daily apt upgrade and clean activities.
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.94.4
+ansible-bchd-CRON[17228]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.89.198
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.89.199
+ansible-bchd-CRON[17244]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+ansible-bchd-gotty[963]: 2019/09/17 08:44:54 New client connected: 10.0.0.33:54016
+ansible-bchd-gotty[963]: 2019/09/17 08:44:54 Command is running for client 10.0.0.33:54016 with PID 17251 (args="new -A -s gotty"), connections: 1
+ansible-bchd-gotty[963]: 2019/09/17 08:44:54 10.0.0.33:54016 101 GET /ws
+ansible-bchd-gotty[963]: 2019/09/17 08:44:54 10.0.0.33:54018 304 GET /
+ansible-bchd-gotty[963]: 2019/09/17 08:44:55 New client connected: 10.0.0.33:54020
+ansible-bchd-gotty[963]: 2019/09/17 08:44:55 Command is running for client 10.0.0.33:54020 with PID 17252 (args="new -A -s gotty"), connections: 2
+ansible-bchd-gotty[963]: 2019/09/17 08:44:55 10.0.0.33:54020 101 GET /ws
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.91.157
+ansible-bchd-gotty[963]: 2019/09/17 08:59:51 10.0.0.33:54102 200 GET /
+ansible-bchd-gotty[963]: 2019/09/17 08:59:52 New client connected: 10.0.0.33:54104
+ansible-bchd-gotty[963]: 2019/09/17 08:59:52 Command is running for client 10.0.0.33:54104 with PID 17280 (args="new -A -s gotty"), connections: 3
+ansible-bchd-gotty[963]: 2019/09/17 08:59:52 10.0.0.33:54104 101 GET /ws
+ansible-bchd-gotty[963]: 2019/09/17 09:00:33 websocket: close 1001
+ansible-bchd-gotty[963]: 2019/09/17 09:00:33 websocket: close sent
+ansible-bchd-gotty[963]: 2019/09/17 09:00:33 Connection closed: 10.0.0.33:54104, connections: 2
+ansible-bchd-systemd-resolved[663]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+ansible-bchd-systemd[1]: Starting Message of the Day...
+ansible-bchd-50-motd-news[17843]:  * Congrats to the Kubernetes community on 1.16 beta 1! Now available
+ansible-bchd-50-motd-news[17843]:    in MicroK8s for evaluation and testing, with upgrades to RC and GA
+ansible-bchd-50-motd-news[17843]:      snap info microk8s
+ansible-bchd-systemd[1]: Started Message of the Day.
+ansible-bchd-CRON[17900]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+ansible-bchd-systemd[1]: Starting Daily apt download activities...
+ansible-bchd-apt-helper[18504]: E: Sub-process nm-online returned an error code (1)
+ansible-bchd-systemd-resolved[663]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+ansible-bchd-systemd-resolved[663]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+ansible-bchd-systemd[1]: Started Daily apt download activities.
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.89.198
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.89.199
+ansible-bchd-CRON[23527]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.91.157
+ansible-bchd-CRON[28527]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.91.157
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.89.199
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.91.157
+ansible-bchd-CRON[28578]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.91.157
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.89.198
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.91.157
+ansible-bchd-CRON[28596]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.94.4
+ansible-bchd-gotty[963]: 2019/09/17 13:59:36 10.0.0.33:54480 200 GET /
+ansible-bchd-gotty[963]: 2019/09/17 13:59:36 10.0.0.33:54484 200 GET /auth_token.js
+ansible-bchd-gotty[963]: 2019/09/17 13:59:36 10.0.0.33:54486 200 GET /js/gotty.js
+ansible-bchd-gotty[963]: 2019/09/17 13:59:36 10.0.0.33:54482 200 GET /js/hterm.js
+ansible-bchd-gotty[963]: 2019/09/17 13:59:36 10.0.0.33:54488 200 GET /favicon.png
+ansible-bchd-gotty[963]: 2019/09/17 13:59:36 New client connected: 10.0.0.33:54490
+ansible-bchd-gotty[963]: 2019/09/17 13:59:36 Command is running for client 10.0.0.33:54490 with PID 29228 (args="new -A -s gotty"), connections: 3
+ansible-bchd-gotty[963]: 2019/09/17 13:59:36 10.0.0.33:54490 101 GET /ws
+ansible-bchd-gotty[963]: 2019/09/17 14:02:43 websocket: close 1001
+ansible-bchd-gotty[963]: 2019/09/17 14:02:43 websocket: close sent
+ansible-bchd-gotty[963]: 2019/09/17 14:02:43 Connection closed: 10.0.0.33:54490, connections: 2
+ansible-bchd-CRON[29982]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.91.157
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.89.198
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.89.199
+ansible-bchd-CRON[1063]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.94.4
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.91.157
+ansible-bchd-systemd-resolved[663]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+ansible-bchd-CRON[3962]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+ansible-bchd-gotty[963]: 2019/09/17 16:21:34 websocket: close 1006 unexpected EOF
+ansible-bchd-gotty[963]: 2019/09/17 16:21:34 Command exited for: 10.0.0.33:54020
+ansible-bchd-gotty[963]: 2019/09/17 16:21:34 Connection closed: 10.0.0.33:54020, connections: 1
+ansible-bchd-gotty[963]: 2019/09/17 16:21:34 websocket: close 1006 unexpected EOF
+ansible-bchd-gotty[963]: 2019/09/17 16:21:34 Command exited for: 10.0.0.33:54016
+ansible-bchd-gotty[963]: 2019/09/17 16:21:34 Connection closed: 10.0.0.33:54016, connections: 0
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.89.199
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.94.4
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.91.157
+ansible-bchd-CRON[3984]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.89.199
+ansible-bchd-systemd[1]: Starting Message of the Day...
+ansible-bchd-50-motd-news[3998]:  * Congrats to the Kubernetes community on 1.16 beta 1! Now available
+ansible-bchd-50-motd-news[3998]:    in MicroK8s for evaluation and testing, with upgrades to RC and GA
+ansible-bchd-50-motd-news[3998]:      snap info microk8s
+ansible-bchd-systemd[1]: Started Message of the Day.
+ansible-bchd-CRON[4055]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.89.198
+ansible-bchd-systemd[1]: Starting Daily apt download activities...
+ansible-bchd-apt-helper[4061]: E: Sub-process nm-online returned an error code (1)
+ansible-bchd-systemd[1]: Started Daily apt download activities.
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.91.157
+ansible-bchd-CRON[4158]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.94.4
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.89.199
+ansible-bchd-CRON[4177]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+ansible-bchd-CRON[4183]: (root) CMD (   test -x /etc/cron.daily/popularity-contest && /etc/cron.daily/popularity-contest --crond)
+ansible-bchd-systemd[1]: Starting Cleanup of Temporary Directories...
+ansible-bchd-systemd[1]: Started Cleanup of Temporary Directories.
+ansible-bchd-CRON[4214]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.91.157
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.89.199
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.94.4
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.89.198
+ansible-bchd-CRON[4232]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+ansible-bchd-CRON[4248]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.91.157
+ansible-bchd-CRON[4264]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+ansible-bchd-systemd[1]: Starting Message of the Day...
+ansible-bchd-50-motd-news[4273]:  * Congrats to the Kubernetes community on 1.16 beta 1! Now available
+ansible-bchd-50-motd-news[4273]:    in MicroK8s for evaluation and testing, with upgrades to RC and GA
+ansible-bchd-50-motd-news[4273]:      snap info microk8s
+ansible-bchd-systemd[1]: Started Message of the Day.
+ansible-bchd-CRON[4331]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.94.4
+ansible-bchd-CRON[4346]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.91.157
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.89.199
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.94.4
+ansible-bchd-CRON[4363]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.89.198
+ansible-bchd-CRON[4378]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.89.198
+ansible-bchd-CRON[4394]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+ansible-bchd-chronyd[1014]: Received KoD RATE from 91.189.89.199
+ansible-bchd-CRON[4411]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+ansible-bchd-systemd[1]: Starting Daily apt upgrade and clean activities...
+ansible-bchd-dbus-daemon[1338]: [session uid=114 pid=1338] Reloaded configuration
+ansible-bchd-dbus-daemon[1338]: message repeated 8 times: [ [session uid=114 pid=1338] Reloaded configuration]
+ansible-bchd-systemd[1]: Started Daily apt upgrade and clean activities.
+ANSIBLE MATCHED ON THIS LINE - REDACTED BY ANSIBLE
+ANSIBLE MATCHED ON THIS LINE - REDACTED BY ANSIBLE

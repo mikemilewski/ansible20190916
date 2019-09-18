@@ -8,6 +8,5 @@
           - name: Add user
             user:
                     name: secureuser
-                    password: password123
+                    password: $6$mysecretsalt$MIJffjeQyfrKKrGkprGrDL/g2mCJa53koLmYQuuLmY9y37pDvGKPXU1Ov3RbMi.tpQ9cWvxAzUVtBLe7KrZoU.
             become: yes
-

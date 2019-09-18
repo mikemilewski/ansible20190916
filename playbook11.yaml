@@ -1,0 +1,15 @@
+---
+- name: playbook with line in file
+  hosts: localhost
+
+  vars:
+          fileloc: "~/ans/sys.log"
+
+  tasks:
+          - name: "Insert a line into {{ fileloc }}"
+            lineinfile:
+                    path: "{{ fileloc }}"
+                    backup: yes
+                    regex: ^Sep\s\d\d?\s\d{2}:\d{2}:\d{2}
+                    line: "ANSIBLE MATCHED ON THIS LINE - REDACTED BY ANSIBLE"
+

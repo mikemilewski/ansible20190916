@@ -1,0 +1,15 @@
+name = {{ ship_name }}
+
+type = {{ ship_type }}
+
+engine_type = {{ engines }}
+
+{% if not fuel %}
+WARNING: No fuel in the ship!  Take off is not possible.
+{% elif fuel < 10 %}
+WARNING: Fuel in the ship is LOW! Take off is not advised.
+{% else %}
+dark_matter_capacity = {{ fuel }}
+{% endif %}
+
+estimte_ship_price = {{ price }}

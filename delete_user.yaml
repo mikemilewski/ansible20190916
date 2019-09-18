@@ -9,5 +9,6 @@
             user:
                     name: secureuser
                     password: password123
+                    state: absent
             become: yes
 
