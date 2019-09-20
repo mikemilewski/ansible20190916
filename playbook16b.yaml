@@ -1,0 +1,38 @@
+---
+- name: Checking on services states
+  hosts: futurama
+
+  vars:
+          srv2chk: ['rsync', 'ssh']
+
+  tasks:
+          - name: populate service facts
+            shell: ps -A | grep "{{ item }}"
+            loop: "{{ srvchk }}"
+            register: result
+            ignore_errors: yes
+
+          - debug:
+                  var: result
+
+          - name: What is the value of services atm
+            debug:
+                    var: ansible_facts.services
+
+          - name: Printing out state of services
+            debug:
+                    msg: "The service {{ item.key }} is {{ item.value.state}}"
+            loop: "{{ lookup('dict', ansible_facts.services) }}"
+
+          - name: create a file
+            file:
+                    name: ~/ans/service.log
+                    state: touch
+            delegate_to: localhost
+
+          - name: Create a hardcopy of our data
+            lineinfile:
+                    path: ~/ans/service.log
+                    line: "{{ inventory_hostname }} - {{ item.key }} is {{ item.value.state }}"
+            loop: "{{ lookup('dict', ansible_facts.services) }}"
+            delegate_to: localhost

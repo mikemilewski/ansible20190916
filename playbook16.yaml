@@ -1,0 +1,29 @@
+---
+- name: Checking on services states
+  hosts: futurama
+
+  tasks:
+          - name: populate service facts
+            service_facts:
+
+          - name: What is the value of services atm
+            debug:
+                    var: ansible_facts.services
+
+          - name: Printing out state of services
+            debug:
+                    msg: "The service {{ item.key }} is {{ item.value.state}}"
+            loop: "{{ lookup('dict', ansible_facts.services) }}"
+
+          - name: create a file
+            file:
+                    name: ~/ans/service.log
+                    state: touch
+            delegate_to: localhost
+
+          - name: Create a hardcopy of our data
+            lineinfile:
+                    path: ~/ans/service.log
+                    line: "{{ inventory_hostname }} - {{ item.key }} is {{ item.value.state }}"
+            loop: "{{ lookup('dict', ansible_facts.services) }}"
+            delegate_to: localhost

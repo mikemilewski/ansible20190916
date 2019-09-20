@@ -1,0 +1,32 @@
+
+1568913402 - Ended precheck phase - fry - SUCCESS
+1568913402 - Ended precheck phase - bender - SUCCESS
+1568913402 - Ended precheck phase - ziodberg - SUCCESS
+1568913417 - Ended precheck phase - farnsworth - SUCCESS
+1568914840 - Ended precheck phase - fry - SUCCESS
+1568914840 - Ended precheck phase - bender - SUCCESS
+1568914845 - Ended precheck phase - farnsworth - SUCCESS
+1568914840 - Ended precheck phase - ziodberg - SUCCESS
+({'weekday_number': '4', 'iso8601_basic_short': '20190919T174040', 'tz': 'UTC', 'weeknumber': '37', 'hour': '17', 'year': '2019', 'minute': '40', 'tz_offset': '+0000', 'month': '09', 'epoch': '1568914840', 'iso8601_micro': '2019-09-19T17:40:40.442408Z', 'weekday': 'Thursday', 'time': '17:40:40', 'date': '2019-09-19', 'iso8601': '2019-09-19T17:40:40Z', 'day': '19', 'iso8601_basic': '20190919T174040442295', 'second': '40'}, AnsibleUndefined) - Ended maintenance phase - ziodberg - SUCCESS
+({'weekday_number': '4', 'iso8601_basic_short': '20190919T174040', 'tz': 'UTC', 'weeknumber': '37', 'hour': '17', 'year': '2019', 'minute': '40', 'tz_offset': '+0000', 'month': '09', 'epoch': '1568914840', 'iso8601_micro': '2019-09-19T17:40:40.494171Z', 'weekday': 'Thursday', 'time': '17:40:40', 'date': '2019-09-19', 'iso8601': '2019-09-19T17:40:40Z', 'day': '19', 'iso8601_basic': '20190919T174040494059', 'second': '40'}, AnsibleUndefined) - Ended maintenance phase - fry - SUCCESS
+({'weekday_number': '4', 'iso8601_basic_short': '20190919T174040', 'tz': 'UTC', 'weeknumber': '37', 'hour': '17', 'year': '2019', 'minute': '40', 'tz_offset': '+0000', 'month': '09', 'epoch': '1568914840', 'iso8601_micro': '2019-09-19T17:40:40.314246Z', 'weekday': 'Thursday', 'time': '17:40:40', 'date': '2019-09-19', 'iso8601': '2019-09-19T17:40:40Z', 'day': '19', 'iso8601_basic': '20190919T174040314139', 'second': '40'}, AnsibleUndefined) - Ended maintenance phase - bender - SUCCESS
+({'weekday_number': '4', 'iso8601_basic_short': '20190919T174045', 'tz': 'UTC', 'weeknumber': '37', 'hour': '17', 'year': '2019', 'minute': '40', 'tz_offset': '+0000', 'month': '09', 'epoch': '1568914845', 'iso8601_micro': '2019-09-19T17:40:45.699999Z', 'weekday': 'Thursday', 'time': '17:40:45', 'date': '2019-09-19', 'iso8601': '2019-09-19T17:40:45Z', 'day': '19', 'iso8601_basic': '20190919T174045699866', 'second': '45'}, AnsibleUndefined) - Ended maintenance phase - farnsworth - FAILED
+1568915381 - Ended precheck phase - bender - SUCCESS
+1568915381 - Ended precheck phase - ziodberg - SUCCESS
+1568915386 - Ended precheck phase - farnsworth - SUCCESS
+1568915381 - Ended precheck phase - fry - SUCCESS
+1568915381 - Ended maintenance phase - bender - SUCCESS
+1568915381 - Ended maintenance phase - ziodberg - SUCCESS
+1568915381 - Ended maintenance phase - fry - SUCCESS
+1568915386 - Ended maintenance phase - farnsworth - FAILED
+1568915459 - Ended precheck phase - ziodberg - SUCCESS
+1568915459 - Ended precheck phase - bender - SUCCESS
+1568915465 - Ended precheck phase - farnsworth - SUCCESS
+1568915459 - Ended maintenance phase - bender - SUCCESS
+1568915459 - Ended maintenance phase - fry - SUCCESS
+1568915459 - Ended maintenance phase - ziodberg - SUCCESS
+1568915465 - Ended maintenance phase - farnsworth - SUCCESS
+1568915803 - Ended precheck phase - ziodberg - FAILED
+1568915809 - Ended precheck phase - farnsworth - FAILED
+1568915804 - Ended precheck phase - bender - FAILED
+1568915804 - Ended precheck phase - fry - FAILED
